@@ -18,9 +18,32 @@ body {
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  /* width: 100vw;
+  min-height: 812px;
+  height: 100vh; */
+  /* width: 375px;
+  height: 812px; */
+}
+
+@media (min-width: 320px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 1024px;
+    height: 100vh;
+  }
+}
+
+main a:hover {
+  filter: invert(39%) sepia(25%) saturate(2071%) hue-rotate(322deg)
+    brightness(117%) contrast(180%);
+  transition: 0.5s;
 }
 
 .container {
@@ -75,4 +98,14 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+li a img {
+  /* border: solid red 1px; */
+  border-radius: 4px;
+}
+
+li a:hover {
+  filter: invert(39%) sepia(25%) saturate(2071%) hue-rotate(322deg)
+    brightness(117%) contrast(180%);
 }
