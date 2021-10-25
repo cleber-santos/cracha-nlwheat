@@ -35,9 +35,9 @@ Badge feito durante o evento NLW Heat 2021.
 
 ## :sparkles: Funcionalidades
 
-:heavy_check_mark: HTML 5;\
-:heavy_check_mark: CSS 3;\
-:heavy_check_mark: Javascript;
+:heavy_check_mark: HTML 5\
+:heavy_check_mark: CSS 3\
+:heavy_check_mark: Javascript
 
 ## :checkered_flag: Começando
 
